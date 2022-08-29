@@ -5,11 +5,22 @@ body {
 img {
   width: 100px;
   height: 100px;
+  align-self: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /* do not edit this footer */
@@ -23,4 +34,19 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.one,
+.two,
+.three,
+.four {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 52px 0;
+  width: 200ex;
+}
+
+.text {
+  text-align: center;
 }
